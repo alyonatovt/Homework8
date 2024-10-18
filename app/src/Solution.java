@@ -52,8 +52,7 @@ public class Solution {
                 rowSum += matrix[i][j];
                 colSum += matrix[j][i];
             }
-            if (rowSum
-                    != magicSum || colSum != magicSum) {
+            if (rowSum != magicSum || colSum != magicSum) {
                 isMagicSquare = false;
                 break;
             }
